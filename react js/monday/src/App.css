@@ -1,0 +1,228 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm');
+/* .main-group {
+    box-shadow: 1px 8px 0 -1px;
+    border-color: rgb(87, 155, 252);
+    height: 20px;
+} */
+
+.display {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #292f4c;
+  height: 100vh;
+  width: 4%;
+  align-items: center;
+  justify-content: space-between;
+}
+.side-menu .home-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.side-menu .home-logo img{
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  margin: 10px 0;
+}
+.svg-vfx {
+  height: 36px;
+  width: 36px;
+  margin: 4px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+
+}
+.side-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.side-menu .home-logo span {
+  margin: 0 8px;
+  width: 100%;
+  background-color: #676879;
+  height: 2px;
+  margin-bottom: 20px;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-space {
+  background-color: #f6f7fb;
+  width: 15%;
+  height: 100vh;
+  border-right: 1px solid;
+  border-color: #d0d4e4;
+  z-index: 1000001;
+}
+.work-space-heading-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #676879;
+}
+.work-space-layout {
+  margin: 14px 18px;
+}
+.work-space-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-space-heading svg{
+  transform: scale(1.5);
+}
+.work-space-select {
+  font-family: Roboto,Rubik,Noto Kufi Arabic,Noto Sans JP,sans-serif;;
+  font-weight: 300;
+  line-height: 1.5;
+  border: 1px solid #292f4c;
+  padding: 6px;
+  margin: 8px 0;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.work-space-select .sub {
+  display: flex;
+  flex-direction: row;
+}
+.work-space-add {
+  margin: 16px 0;
+}
+.work-space-search {
+  margin: 10px 0;
+}
+.work-space-add  span{
+  font-size: 14px;
+  margin: 0 6px;
+  color: #323338;
+}
+.work-space-search span{
+  font-size: 14px;
+  margin: 0 6px;
+  color: #323338;
+}
+.workspace-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.workspace-icon .heading {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.work-space-select .letter {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 2px 6px;
+  background-color:#faa1f1 ;
+  color:#ffffff;
+  border-radius: 6px;
+
+}
+.section3 {
+  margin: 0;
+  width: 100%;
+}
+.splitter {
+  margin: 0 0;
+  width: 100%;
+  background-color: #676879;
+  height: 2px;
+  margin-bottom: 20px;
+}
+
+.section3 .products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(108, 108, 255);
+} 
+.section3 .profile-img img{
+  margin: 20px 0;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+}
+
+
+.work-space-spliter {
+  margin: 2px 0;
+  width: 100%;
+  background-color: #d0d4e4;
+  height: 0.5px;
+  margin-bottom: 20px;
+  margin: 32px 0 0 0;
+}
+.list1 {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top:20px ;
+  background-color: #cce5ff;
+}
+
+
+.main {
+  margin-left: 50px;
+
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+.main-heading-info-fav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main-heading-info-fav .info{
+  margin: 0 10px;
+}
+.main-heading-info-fav .fav{
+  margin: 0 10px;
+}
+
+.main-heading .heading {
+  margin: 0 5px;
+  line-height: 40px;
+  color: #323338;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: antialiased Roboto,Rubik,Noto Kufi Arabic,Noto Sans JP,sans-serif;;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -1px;
+}
